@@ -20,16 +20,16 @@
 
 ## 📊 数据统计
 
-| 提示词总数 | 分类数 | 语言 |
-|:---:|:---:|:---:|
-| 6 | 6 | EN / ZH |
+| 提示词总数 | 精选 | 分类数 | 语言 |
+|:---:|:---:|:---:|:---:|
+| 10 | 4 | 6 | EN / ZH |
 
 ## 📂 分类目录
 
 | 分类 | 描述 | 数量 |
 |:---|:---|:---:|
-| 🎬 [电影感](#-电影感) | 电影风格场景、戏剧性光影、叙事镜头 | 1 |
-| 🌿 [自然](#-自然) | 野生动物、自然风景、自然现象 | 1 |
+| 🎬 [电影感](#-电影感) | 电影风格场景、戏剧性光影、叙事镜头 | 4 |
+| 🌿 [自然](#-自然) | 野生动物、自然风景、自然现象 | 2 |
 | 🎨 [抽象艺术](#-抽象艺术) | 艺术性、流体、实验性视觉 | 1 |
 | 🤖 [科幻](#-科幻) | 未来主义、赛博朋克、科技主题 | 1 |
 | 🏔️ [风景](#-风景) | 环境风光、建筑、氛围 | 1 |
@@ -37,16 +37,130 @@
 
 ---
 
-## ⭐ 精选提示词
+## 🏆 官方演示 — HappyHorse 生成
+
+这 4 个提示词是 HappyHorse 的官方能力展示，涵盖物理感知运动、流体动力学、角色动画和同步音频生成。
+
+---
+
+### 1. 呼啦圈小孩
+
+![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
+
+> 展示物理感知运动 — 呼啦圈从腰部爬升、下降、掉落，具有真实的重量感和动量。
+
+#### 📝 提示词
+
+```
+A hula hoop spinning on a kid's waist, gradually climbing to their chest, then dropping
+to knees, then clattering to the floor. They pick it up to try again.
+```
+
+#### 🎬 视频
+
+<div align="center">
+  <a href="videos/hula-hoop-kid.mp4">
+    📥 下载视频
+  </a> ・
+  <a href="https://x.com/i/status/2041591993386856448">
+    🐦 源推文
+  </a>
+</div>
+
+---
+
+### 2. 高尔夫推杆
+
+![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
+
+> 角色情绪与物理同步 — 高尔夫球手的肢体语言随球在杯沿每次旋转而变化。
+
+#### 📝 提示词
+
+```
+A golf ball in a cup rolling around the rim three times before finally dropping in.
+The golfer's body language matches each rotation. Audio: Ball rattle, exhale, plop.
+```
+
+#### 🎬 视频
+
+<div align="center">
+  <a href="videos/golf-ball-putt.mp4">
+    📥 下载视频
+  </a> ・
+  <a href="https://x.com/i/status/2041591995106521352">
+    🐦 源推文
+  </a>
+</div>
+
+---
+
+### 3. 猫咪与烤面包机倒影
+
+![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
+
+> 反射渲染 + 动物动画 — 猫咪轻拍铬面烤面包机，扭曲的倒影回拍。
+
+#### 📝 提示词
+
+```
+A cat staring at its own reflection in a toaster, paw tapping the chrome surface.
+The distorted cat reflection taps back. Audio: Paw taps, confused meow.
+```
+
+#### 🎬 视频
+
+<div align="center">
+  <a href="videos/cat-toaster-reflection.mp4">
+    📥 下载视频
+  </a> ・
+  <a href="https://x.com/i/status/2041591996754903188">
+    🐦 源推文
+  </a>
+</div>
+
+---
+
+### 4. 咖啡师拉花
+
+![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
+
+> 流体动力学杰作 — 牛奶没入咖啡脂下方，随后突破表面，精确的手腕摆动形成玫瑰花图案。
+
+#### 📝 提示词
+
+```
+A barista creating latte art by pouring steamed milk into espresso. The white milk
+submerges beneath the brown crema initially, then breaks through the surface as the
+cup fills. The barista's wrist makes precise oscillating movements, creating a rosetta
+pattern. The milk and espresso maintain their distinct colors while interacting at
+the boundary. Audio: The gentle pour of liquid, the hiss of the steam wand in the
+background.
+```
+
+#### 🎬 视频
+
+<div align="center">
+  <a href="videos/barista-latte-art.mp4">
+    📥 下载视频
+  </a> ・
+  <a href="https://x.com/i/status/2041591999061758171">
+    🐦 源推文
+  </a>
+</div>
+
+---
+
+## 📚 所有提示词
 
 ### 🎬 电影感
 
 #### 霓虹城市中的复古汽车
 
-> 穿越未来霓虹城市的电影感夜间驾驶。
-
 ```
-Camera zooms in on an old vintage car driving through a neon-lit futuristic city at night. Cinematic lighting, rain-slicked streets reflecting neon signs, 4k resolution, highly detailed atmospheric scene.
+Camera zooms in on an old vintage car driving through a neon-lit futuristic city at night.
+Cinematic lighting, rain-slicked streets reflecting neon signs, 4k resolution, highly
+detailed atmospheric scene.
 ```
 
 **作者:** 社区 | **模型:** HappyHorse Pro
@@ -57,10 +171,9 @@ Camera zooms in on an old vintage car driving through a neon-lit futuristic city
 
 #### 山巅雄鹰
 
-> 黄金时刻，纪录片风格的雄鹰翱翔。
-
 ```
-A majestic eagle soaring in slow motion over snow-capped mountain range at golden hour sunrise. National Geographic documentary style, ultra-sharp, breathtaking aerial perspective.
+A majestic eagle soaring in slow motion over snow-capped mountain range at golden hour
+sunrise. National Geographic documentary style, ultra-sharp, breathtaking aerial perspective.
 ```
 
 **作者:** 社区 | **模型:** HappyHorse Pro
@@ -71,10 +184,9 @@ A majestic eagle soaring in slow motion over snow-capped mountain range at golde
 
 #### 液态金与靛蓝
 
-> 令人着迷的抽象液态艺术动画，无缝循环。
-
 ```
-Abstract liquid painting animation, swirling molten gold and deep indigo blue flowing together, mesmerizing hypnotic motion, perfectly seamlessly looped, art house style.
+Abstract liquid painting animation, swirling molten gold and deep indigo blue flowing
+together, mesmerizing hypnotic motion, perfectly seamlessly looped, art house style.
 ```
 
 **作者:** 社区 | **模型:** HappyHorse Pro
@@ -85,10 +197,10 @@ Abstract liquid painting animation, swirling molten gold and deep indigo blue fl
 
 #### 实验室中的机器人
 
-> 赛博朋克灯光下分析全息数据的人形机器人。
-
 ```
-A humanoid robot with glowing blue eyes working in a high-tech laboratory, analyzing holographic data displays with precise hand movements. Cyberpunk aesthetic, cool blue-purple lighting.
+A humanoid robot with glowing blue eyes working in a high-tech laboratory, analyzing
+holographic data displays with precise hand movements. Cyberpunk aesthetic, cool
+blue-purple lighting.
 ```
 
 **作者:** 社区 | **模型:** HappyHorse Pro
@@ -99,10 +211,10 @@ A humanoid robot with glowing blue eyes working in a high-tech laboratory, analy
 
 #### 雪夜温馨小木屋
 
-> 宁静的小木屋场景，暖光映雪。
-
 ```
-A cozy log cabin in dense pine forest during heavy evening snowfall. Warm amber light glowing through frosted windows, smoke curling from stone chimney. Slow dolly-in shot, cinematic, peaceful.
+A cozy log cabin in dense pine forest during heavy evening snowfall. Warm amber light
+glowing through frosted windows, smoke curling from stone chimney. Slow dolly-in shot,
+cinematic, peaceful.
 ```
 
 **作者:** 社区 | **模型:** HappyHorse Pro
@@ -113,10 +225,9 @@ A cozy log cabin in dense pine forest during heavy evening snowfall. Warm amber 
 
 #### 瑞士机械表机芯
 
-> 黄金光线下的奢华机械表机芯极致微距。
-
 ```
-Extreme macro shot of a luxury Swiss mechanical watch movement ticking. Gears spinning in perfect precision. Shallow depth of field, golden hour side-lighting, ASMR-quality detail.
+Extreme macro shot of a luxury Swiss mechanical watch movement ticking. Gears spinning
+in perfect precision. Shallow depth of field, golden hour side-lighting, ASMR-quality detail.
 ```
 
 **作者:** 社区 | **模型:** HappyHorse Pro
@@ -142,7 +253,7 @@ Extreme macro shot of a luxury Swiss mechanical watch movement ticking. Gears sp
 title: 你的提示词标题
 author: 你的名字
 author_link: https://twitter.com/yourhandle  # 可选
-model: HappyHorse Pro
+model: HappyHorse
 category: cinematic
 video_url: https://...  # 可选，生成视频的链接
 date: 2026-04-09
@@ -154,9 +265,7 @@ date: 2026-04-09
 
 ## 提示词
 
-\```
 你的完整提示词文本...
-\```
 
 ## 预览
 
@@ -171,7 +280,7 @@ date: 2026-04-09
 ### 投稿规范
 
 - ✅ 你原创或有权分享的提示词
-- ✅ 注明使用的模型（如 HappyHorse Pro）
+- ✅ 注明使用的模型（如 HappyHorse）
 - ✅ 添加预期效果描述
 - ✅ 强烈建议附上视频/图片预览
 - ❌ 禁止 NSFW 内容
