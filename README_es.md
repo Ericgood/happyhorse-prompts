@@ -72,7 +72,7 @@ Nadie ha confirmado públicamente quién construyó HappyHorse-1.0. Artificial A
 
 | Total de Prompts | Destacados | Última Actualización |
 |:---:|:---:|:---:|
-| 7 | 7 | Abril 2026 |
+| 18 | 7 | Abril 2026 |
 
 ---
 
