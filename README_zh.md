@@ -5,7 +5,7 @@
 
   # 🐴 HappyHorse 提示词集合
 
-  **社区驱动的 [HappyHorse](https://happyhorseprompt.com) AI 视频生成提示词开源库**
+  **社区驱动的 [HappyHorse](https://happyhorses.io) AI 视频生成提示词开源库**
 
   [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
   [![GitHub stars](https://img.shields.io/github/stars/Ericgood/happyhorse-prompts?style=social)](https://github.com/Ericgood/happyhorse-prompts)
@@ -16,38 +16,75 @@
 
 ---
 
-> **声明：** 这是一个社区驱动的开源项目，提示词由全球用户贡献。如果您发现任何侵犯版权的内容，请[提交 Issue](https://github.com/Ericgood/happyhorse-prompts/issues)。
+## 🐴 HappyHorse 是什么？
+
+**HappyHorse-1.0** 是一个 150 亿参数的统一 Transformer 模型，能够从文本同时生成视频和音频 — 无需后期配音。它于 2026 年 4 月初以匿名身份登上 [Artificial Analysis](https://artificialanalysis.ai/) 视频竞技场排行榜，迅速夺得 **第一名**，超越了 Seedance 2.0、Kling 3.0、PixVerse V6 等成熟模型。
+
+### 核心亮点
+
+- 🏆 **AI 视频竞技场 #1** — Elo 1333（文本生成视频），Elo 1392（图片生成视频）
+- 🧠 **150 亿参数** — 40 层单流 Transformer，无交叉注意力机制
+- 🎬 **视频 + 音频联合生成** — 对话、环境音、拟音效果与视频帧同步生成
+- 🗣️ **多语言唇形同步** — 支持中文、英语、日语、韩语、德语、法语、粤语
+- ⚡ **8 步去噪** — 通过 DMD-2 蒸馏实现快速推理，无需 CFG
+- 📖 **开源** — 基础模型、蒸馏模型、超分辨率模块和推理代码（含商用许可）
+
+### 架构设计
+
+模型采用**单流自注意力 Transformer** 架构，文本 token、参考图像潜变量、带噪视频和音频 token 在同一序列中联合去噪。前 4 层和后 4 层使用模态专用投影；中间 32 层在所有模态间共享参数。
+
+> *"开源社区此前从未有人从零开始做过真正的音视频联合预训练。"*
+>
+> — [36Kr 关于 HappyHorse 的报道](https://eu.36kr.com/en/p/3757826958635781)
+
+### 排行榜排名
+
+| 类别 | Elo 分数 | 排名 |
+|:---|:---:|:---:|
+| 文本生成视频（无音频） | **1333** | 🥇 第一 |
+| 图片生成视频（无音频） | **1392** | 🥇 第一 |
+| 文本生成视频（含音频） | 1205 | 🥈 第二 |
+| 图片生成视频（含音频） | 1161 | 🥈 第二 |
+
+*数据来源：[Artificial Analysis Video Arena](https://artificialanalysis.ai/)，2026 年 4 月。*
+
+### 竞品对比
+
+| 模型 | T2V Elo | 备注 |
+|:---|:---:|:---|
+| **HappyHorse-1.0** | **1333** | 开源，音视频联合生成 |
+| Seedance 2.0 (720p) | 1273 | 字节跳动，音频同步领先 |
+| SkyReels V4 | 1244 | $7.20/分钟 |
+| Kling 3.0 1080p Pro | 1241 | $13.44/分钟 |
+| PixVerse V6 | 1239 | $5.40/分钟 |
+
+### 神秘身世
+
+至今无人公开确认 HappyHorse-1.0 的创建者。Artificial Analysis 将其描述为**"匿名"模型**。社区调查表明，它可能是基于开源模型 [daVinci-MagiHuman](https://github.com/BrightXiaoHan/MagiHuman) 的迭代优化版本，可能与 Sand.ai 和上海 GAIR 实验室有关。命名恰逢 2026 年为中国农历**马年**。
+
+> *来源：[36Kr](https://eu.36kr.com/en/p/3757826958635781) · [WaveSpeed AI](https://wavespeed.ai/blog/posts/what-is-happyhorse-1-0-ai-video-model/) · [Apiyi 分析](https://help.apiyi.com/en/happyhorse-model-mystery-ai-video-lmarena-analysis-en.html)*
+
+---
 
 ## 📊 数据统计
 
-| 提示词总数 | 精选 | 分类数 | 语言 |
-|:---:|:---:|:---:|:---:|
-| 10 | 4 | 6 | EN / ZH |
-
-## 📂 分类目录
-
-| 分类 | 描述 | 数量 |
-|:---|:---|:---:|
-| 🎬 [电影感](#-电影感) | 电影风格场景、戏剧性光影、叙事镜头 | 4 |
-| 🌿 [自然](#-自然) | 野生动物、自然风景、自然现象 | 2 |
-| 🎨 [抽象艺术](#-抽象艺术) | 艺术性、流体、实验性视觉 | 1 |
-| 🤖 [科幻](#-科幻) | 未来主义、赛博朋克、科技主题 | 1 |
-| 🏔️ [风景](#-风景) | 环境风光、建筑、氛围 | 1 |
-| 🔬 [微距](#-微距) | 极致特写、精密细节 | 1 |
+| 提示词总数 | 精选 | 最后更新 |
+|:---:|:---:|:---:|
+| 5 | 5 | 2026 年 4 月 |
 
 ---
 
 ## 🏆 官方演示 — HappyHorse 生成
 
-这 4 个提示词是 HappyHorse 的官方能力展示，涵盖物理感知运动、流体动力学、角色动画和同步音频生成。
+这些提示词是 HappyHorse 的官方能力展示，涵盖物理感知运动、流体动力学、角色动画、时间一致性和同步音频生成。
 
 ---
 
-### 1. 呼啦圈小孩
+### 1. 🎯 呼啦圈小孩
 
 ![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
 
-> 展示物理感知运动 — 呼啦圈从腰部爬升、下降、掉落，具有真实的重量感和动量。
+> 物理感知运动 — 呼啦圈从腰部爬升、下降、掉落，具有真实的重量感和动量。
 
 #### 📝 提示词
 
@@ -59,17 +96,12 @@ to knees, then clattering to the floor. They pick it up to try again.
 #### 🎬 视频
 
 <div align="center">
-  <a href="videos/hula-hoop-kid.mp4">
-    📥 下载视频
-  </a> ・
-  <a href="https://x.com/i/status/2041591993386856448">
-    🐦 源推文
-  </a>
+  <a href="videos/hula-hoop-kid.mp4">📥 下载视频</a> ・ <a href="https://x.com/i/status/2041591993386856448">🐦 源推文</a>
 </div>
 
 ---
 
-### 2. 高尔夫推杆
+### 2. ⛳ 高尔夫推杆
 
 ![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
 
@@ -85,17 +117,12 @@ The golfer's body language matches each rotation. Audio: Ball rattle, exhale, pl
 #### 🎬 视频
 
 <div align="center">
-  <a href="videos/golf-ball-putt.mp4">
-    📥 下载视频
-  </a> ・
-  <a href="https://x.com/i/status/2041591995106521352">
-    🐦 源推文
-  </a>
+  <a href="videos/golf-ball-putt.mp4">📥 下载视频</a> ・ <a href="https://x.com/i/status/2041591995106521352">🐦 源推文</a>
 </div>
 
 ---
 
-### 3. 猫咪与烤面包机倒影
+### 3. 🐱 猫咪与烤面包机倒影
 
 ![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
 
@@ -111,17 +138,12 @@ The distorted cat reflection taps back. Audio: Paw taps, confused meow.
 #### 🎬 视频
 
 <div align="center">
-  <a href="videos/cat-toaster-reflection.mp4">
-    📥 下载视频
-  </a> ・
-  <a href="https://x.com/i/status/2041591996754903188">
-    🐦 源推文
-  </a>
+  <a href="videos/cat-toaster-reflection.mp4">📥 下载视频</a> ・ <a href="https://x.com/i/status/2041591996754903188">🐦 源推文</a>
 </div>
 
 ---
 
-### 4. 咖啡师拉花
+### 4. ☕ 咖啡师拉花
 
 ![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
 
@@ -141,96 +163,29 @@ background.
 #### 🎬 视频
 
 <div align="center">
-  <a href="videos/barista-latte-art.mp4">
-    📥 下载视频
-  </a> ・
-  <a href="https://x.com/i/status/2041591999061758171">
-    🐦 源推文
-  </a>
+  <a href="videos/barista-latte-art.mp4">📥 下载视频</a> ・ <a href="https://x.com/i/status/2041591999061758171">🐦 源推文</a>
 </div>
 
 ---
 
-## 📚 所有提示词
+### 5. 🌸 花开花落延时摄影
 
-### 🎬 电影感
+![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
 
-#### 霓虹城市中的复古汽车
+> 模拟两周时间跨度的时间一致性 — 同一花瓶、同一窗户、同一角度，光线随天气自然变化。
 
-```
-Camera zooms in on an old vintage car driving through a neon-lit futuristic city at night.
-Cinematic lighting, rain-slicked streets reflecting neon signs, 4k resolution, highly
-detailed atmospheric scene.
-```
-
-**作者:** 社区 | **模型:** HappyHorse Pro
-
----
-
-### 🌿 自然
-
-#### 山巅雄鹰
+#### 📝 提示词
 
 ```
-A majestic eagle soaring in slow motion over snow-capped mountain range at golden hour
-sunrise. National Geographic documentary style, ultra-sharp, breathtaking aerial perspective.
+A flower blooming and wilting over two weeks, one photo per day. Same vase, same window,
+same angle. Light changes with weather. Audio: Quiet domestic.
 ```
 
-**作者:** 社区 | **模型:** HappyHorse Pro
+#### 🎬 视频
 
----
-
-### 🎨 抽象艺术
-
-#### 液态金与靛蓝
-
-```
-Abstract liquid painting animation, swirling molten gold and deep indigo blue flowing
-together, mesmerizing hypnotic motion, perfectly seamlessly looped, art house style.
-```
-
-**作者:** 社区 | **模型:** HappyHorse Pro
-
----
-
-### 🤖 科幻
-
-#### 实验室中的机器人
-
-```
-A humanoid robot with glowing blue eyes working in a high-tech laboratory, analyzing
-holographic data displays with precise hand movements. Cyberpunk aesthetic, cool
-blue-purple lighting.
-```
-
-**作者:** 社区 | **模型:** HappyHorse Pro
-
----
-
-### 🏔️ 风景
-
-#### 雪夜温馨小木屋
-
-```
-A cozy log cabin in dense pine forest during heavy evening snowfall. Warm amber light
-glowing through frosted windows, smoke curling from stone chimney. Slow dolly-in shot,
-cinematic, peaceful.
-```
-
-**作者:** 社区 | **模型:** HappyHorse Pro
-
----
-
-### 🔬 微距
-
-#### 瑞士机械表机芯
-
-```
-Extreme macro shot of a luxury Swiss mechanical watch movement ticking. Gears spinning
-in perfect precision. Shallow depth of field, golden hour side-lighting, ASMR-quality detail.
-```
-
-**作者:** 社区 | **模型:** HappyHorse Pro
+<div align="center">
+  <a href="videos/flower-bloom-timelapse.mp4">📥 下载视频</a> ・ <a href="https://x.com/i/status/2039462980715524457">🐦 源推文</a>
+</div>
 
 ---
 
@@ -269,7 +224,6 @@ date: 2026-04-09
 
 ## 预览
 
-<!-- 如果有视频或图片预览，可以在这里添加 -->
 ![预览](图片链接)
 ```
 
@@ -292,7 +246,9 @@ date: 2026-04-09
 
 ## 🌐 链接
 
-- 🐴 [HappyHorse 官方网站](https://happyhorseprompt.com)
+- 🐴 [HappyHorse 官方网站](https://happyhorses.io)
+- 📰 [36Kr：HappyHorse 深度解析](https://eu.36kr.com/en/p/3757826958635781)
+- 📊 [Artificial Analysis 视频竞技场](https://artificialanalysis.ai/)
 - 💬 [讨论区](https://github.com/Ericgood/happyhorse-prompts/discussions)
 - 🐛 [反馈问题](https://github.com/Ericgood/happyhorse-prompts/issues)
 
