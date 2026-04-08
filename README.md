@@ -1,4 +1,4 @@
-[![简体中文](https://img.shields.io/badge/简体中文-点击切换-blue)](README_zh.md)
+[![简体中文](https://img.shields.io/badge/简体中文-切换-blue)](README_zh.md) [![日本語](https://img.shields.io/badge/日本語-切替-blue)](README_ja.md) [![한국어](https://img.shields.io/badge/한국어-전환-blue)](README_ko.md) [![Español](https://img.shields.io/badge/Español-Cambiar-blue)](README_es.md)
 
 <div align="center">
   <img src="assets/logo.png" alt="HappyHorse Logo" width="200">
