@@ -70,7 +70,7 @@
 
 | 提示词总数 | 精选 | 最后更新 |
 |:---:|:---:|:---:|
-| 5 | 5 | 2026 年 4 月 |
+| 7 | 7 | 2026 年 4 月 |
 
 ---
 
@@ -195,6 +195,58 @@ same angle. Light changes with weather. Audio: Quiet domestic.
   </a>
   <br>
   <a href="videos/flower-bloom-timelapse.mp4">📥 下载视频</a> ・ <a href="https://x.com/i/status/2039462980715524457">🐦 源推文</a>
+</div>
+
+---
+
+### 6. 🔥 90年代动作卡通火焰术
+
+![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
+
+> 复古卡通风格 — 手绘火焰配粗线条，动漫风格的战斗姿态，年代感十足的分层烟雾效果。
+
+#### 📝 提示词
+
+```
+1990s action cartoon style  A young martial artist performs a firebending kata. The flames
+are hand-drawn with thick outlines and bold orange-yellow gradients. Dynamic camera swoops
+around the character. The fighting stance shows anime influence while maintaining Western
+animation proportions. Smoke effects use the signature layered look of the era. Audio:
+Whooshing fire, martial arts grunts, dramatic percussion.
+```
+
+<div align="center">
+  <a href="videos/firebending-kata.mp4">
+    <img src="assets/thumbnails/firebending-kata.jpg" width="700" alt="火焰术 - 预览">
+  </a>
+  <br>
+  <a href="videos/firebending-kata.mp4">📥 下载视频</a> ・ <a href="https://x.com/i/status/2039465595041890540">🐦 源推文</a>
+</div>
+
+---
+
+### 7. 🤖 赛博朋克动漫机器人维修
+
+![精选](https://img.shields.io/badge/⭐_精选-官方演示-FF4D00)
+
+> 赛博朋克动漫美学 — 精密机械内部构造、霓虹雨夜氛围、蓝粉色冷色调与环境音效。
+
+#### 📝 提示词
+
+```
+Cyberpunk anime style  (aesthetic). A female android sits in a maintenance chair as robotic
+arms repair her damaged arm. The skin panel is open, revealing intricate servos and
+fiber-optic cables beneath. Her eyes are blank and unfocused during the repair cycle. Neon
+city lights filter through rain-streaked windows. Cool blue and pink color palette with high
+contrast shadows. Audio: Mechanical whirring, the hum of electronics, distant city ambience.
+```
+
+<div align="center">
+  <a href="videos/cyberpunk-android-repair.mp4">
+    <img src="assets/thumbnails/cyberpunk-android-repair.jpg" width="700" alt="赛博朋克机器人维修 - 预览">
+  </a>
+  <br>
+  <a href="videos/cyberpunk-android-repair.mp4">📥 下载视频</a> ・ <a href="https://x.com/i/status/2039465595041890540">🐦 源推文</a>
 </div>
 
 ---

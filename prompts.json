@@ -93,5 +93,43 @@
     "thumbnail": "assets/thumbnails/flower-bloom-timelapse.jpg",
     "featured": true,
     "date": "2026-04-06"
+  },
+  {
+    "id": "firebending-kata",
+    "title": "90s Action Cartoon Firebending",
+    "title_zh": "90年代动作卡通火焰术",
+    "prompt": "1990s action cartoon style  A young martial artist performs a firebending kata. The flames are hand-drawn with thick outlines and bold orange-yellow gradients. Dynamic camera swoops around the character. The fighting stance shows anime influence while maintaining Western animation proportions. Smoke effects use the signature layered look of the era. Audio: Whooshing fire, martial arts grunts, dramatic percussion.",
+    "description": "A 1990s action cartoon-style martial artist performing a firebending kata with hand-drawn flames, thick outlines, and dynamic camera work blending anime and Western animation aesthetics.",
+    "description_zh": "90年代动作卡通风格的武术家表演火焰术，手绘火焰配粗线条和大胆的橙黄渐变，动态镜头运动融合了日本动漫与西方动画的美学。",
+    "category": "animation",
+    "tag": "Retro Cartoon",
+    "tag_zh": "复古卡通",
+    "tagColor": "#FF6B00",
+    "model": "HappyHorse",
+    "author": "HappyHorse Team",
+    "source": "https://x.com/i/status/2039465595041890540",
+    "video": "videos/firebending-kata.mp4",
+    "thumbnail": "assets/thumbnails/firebending-kata.jpg",
+    "featured": true,
+    "date": "2026-04-06"
+  },
+  {
+    "id": "cyberpunk-android-repair",
+    "title": "Cyberpunk Anime Android Repair",
+    "title_zh": "赛博朋克动漫机器人维修",
+    "prompt": "Cyberpunk anime style  (aesthetic). A female android sits in a maintenance chair as robotic arms repair her damaged arm. The skin panel is open, revealing intricate servos and fiber-optic cables beneath. Her eyes are blank and unfocused during the repair cycle. Neon city lights filter through rain-streaked windows. Cool blue and pink color palette with high contrast shadows. Audio: Mechanical whirring, the hum of electronics, distant city ambience.",
+    "description": "A cyberpunk anime scene of a female android being repaired by robotic arms, revealing intricate mechanical internals beneath the skin panel. Neon city lights and rain-streaked windows create atmospheric blue-pink lighting.",
+    "description_zh": "赛博朋克动漫风格场景，机械臂正在维修一个女性机器人的手臂，打开的皮肤面板下露出精密的伺服机构和光纤电缆。霓虹灯光透过雨水冲刷的窗户，营造出蓝粉色氛围光影。",
+    "category": "animation",
+    "tag": "Cyberpunk Anime",
+    "tag_zh": "赛博朋克动漫",
+    "tagColor": "#E040FB",
+    "model": "HappyHorse",
+    "author": "HappyHorse Team",
+    "source": "https://x.com/i/status/2039465595041890540",
+    "video": "videos/cyberpunk-android-repair.mp4",
+    "thumbnail": "assets/thumbnails/cyberpunk-android-repair.jpg",
+    "featured": true,
+    "date": "2026-04-06"
   }
 ]

@@ -70,7 +70,7 @@ Nobody has publicly confirmed who built HappyHorse-1.0. Artificial Analysis desc
 
 | Total Prompts | Featured | Last Updated |
 |:---:|:---:|:---:|
-| 5 | 5 | April 2026 |
+| 7 | 7 | April 2026 |
 
 ---
 
@@ -195,6 +195,58 @@ same angle. Light changes with weather. Audio: Quiet domestic.
   </a>
   <br>
   <a href="videos/flower-bloom-timelapse.mp4">📥 Download Video</a> ・ <a href="https://x.com/i/status/2039462980715524457">🐦 Source Tweet</a>
+</div>
+
+---
+
+### 6. 🔥 90s Action Cartoon Firebending
+
+![Featured](https://img.shields.io/badge/⭐_Featured-Official_Demo-FF4D00)
+
+> Retro cartoon style — hand-drawn flames with thick outlines, anime-influenced fighting stances, and era-authentic layered smoke effects.
+
+#### 📝 Prompt
+
+```
+1990s action cartoon style  A young martial artist performs a firebending kata. The flames
+are hand-drawn with thick outlines and bold orange-yellow gradients. Dynamic camera swoops
+around the character. The fighting stance shows anime influence while maintaining Western
+animation proportions. Smoke effects use the signature layered look of the era. Audio:
+Whooshing fire, martial arts grunts, dramatic percussion.
+```
+
+<div align="center">
+  <a href="videos/firebending-kata.mp4">
+    <img src="assets/thumbnails/firebending-kata.jpg" width="700" alt="Firebending Kata - Preview">
+  </a>
+  <br>
+  <a href="videos/firebending-kata.mp4">📥 Download Video</a> ・ <a href="https://x.com/i/status/2039465595041890540">🐦 Source Tweet</a>
+</div>
+
+---
+
+### 7. 🤖 Cyberpunk Anime Android Repair
+
+![Featured](https://img.shields.io/badge/⭐_Featured-Official_Demo-FF4D00)
+
+> Cyberpunk anime aesthetic — intricate mechanical internals, neon-lit rain atmosphere, and cool blue-pink palette with ambient audio.
+
+#### 📝 Prompt
+
+```
+Cyberpunk anime style  (aesthetic). A female android sits in a maintenance chair as robotic
+arms repair her damaged arm. The skin panel is open, revealing intricate servos and
+fiber-optic cables beneath. Her eyes are blank and unfocused during the repair cycle. Neon
+city lights filter through rain-streaked windows. Cool blue and pink color palette with high
+contrast shadows. Audio: Mechanical whirring, the hum of electronics, distant city ambience.
+```
+
+<div align="center">
+  <a href="videos/cyberpunk-android-repair.mp4">
+    <img src="assets/thumbnails/cyberpunk-android-repair.jpg" width="700" alt="Cyberpunk Android Repair - Preview">
+  </a>
+  <br>
+  <a href="videos/cyberpunk-android-repair.mp4">📥 Download Video</a> ・ <a href="https://x.com/i/status/2039465595041890540">🐦 Source Tweet</a>
 </div>
 
 ---
