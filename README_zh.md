@@ -18,16 +18,17 @@
 
 ## 🐴 HappyHorse 是什么？
 
-**HappyHorse-1.0** 是一个 150 亿参数的统一 Transformer 模型，能够从文本同时生成视频和音频 — 无需后期配音。它于 2026 年 4 月初以匿名身份登上 [Artificial Analysis](https://artificialanalysis.ai/) 视频竞技场排行榜，迅速夺得 **第一名**，超越了 Seedance 2.0、Kling 3.0、PixVerse V6 等成熟模型。
+**HappyHorse-1.0** 是一个约 150 亿参数的开源 AI 视频生成模型，可从文本或图片同时生成视频和同步音频。由**淘天集团（阿里巴巴）未来生活实验室**开发，张迪带队。2026 年 4 月初登上 [Artificial Analysis](https://artificialanalysis.ai/) 视频竞技场，迅速夺得**第一名**，超越 Seedance 2.0、Kling 3.0、PixVerse V6。
 
 ### 核心亮点
 
-- 🏆 **AI 视频竞技场 #1** — Elo 1333（文本生成视频），Elo 1392（图片生成视频）
-- 🧠 **150 亿参数** — 40 层单流 Transformer，无交叉注意力机制
-- 🎬 **视频 + 音频联合生成** — 对话、环境音、拟音效果与视频帧同步生成
-- 🗣️ **多语言唇形同步** — 支持中文、英语、日语、韩语、德语、法语、粤语
-- ⚡ **8 步去噪** — 通过 DMD-2 蒸馏实现快速推理，无需 CFG
-- 📖 **开源** — 基础模型、蒸馏模型、超分辨率模块和推理代码（含商用许可）
+- 🏆 **AI 视频竞技场 #1** — Elo 1333（文生视频），Elo 1392（图生视频）
+- ⚡ **约 10 秒生成** — 同级最快，DMD-2 蒸馏 8 步去噪
+- 🎨 **50+ 视觉风格** — 电影、动漫、纪录片、商业广告、科幻等
+- 🎬 **最长 15 秒** — 原生 480p / 720p / 1080p 输出（无需超分）
+- 🗣️ **音频 + 唇形同步** — 对话、环境音、拟音，7 种语言
+- 📖 **开源** — 基础模型、蒸馏模型、超分模块、推理代码（含商用许可）
+- ✅ **99.5% 成功率** — 生产级可靠性
 
 ### 架构设计
 
@@ -58,9 +59,9 @@
 | Kling 3.0 1080p Pro | 1241 | $13.44/分钟 |
 | PixVerse V6 | 1239 | $5.40/分钟 |
 
-### 神秘身世
+### 身世揭秘
 
-至今无人公开确认 HappyHorse-1.0 的创建者。Artificial Analysis 将其描述为**"匿名"模型**。社区调查表明，它可能是基于开源模型 [daVinci-MagiHuman](https://github.com/BrightXiaoHan/MagiHuman) 的迭代优化版本，可能与 Sand.ai 和上海 GAIR 实验室有关。命名恰逢 2026 年为中国农历**马年**。
+HappyHorse-1.0 由**淘天集团（阿里巴巴）未来生活实验室**开发，由中国顶尖 AI 视频实验室资深专家**张迪**带队。该模型于 2026 年 4 月初以匿名身份登上 Artificial Analysis 视频竞技场，迅速登顶第一。基于开源 [daVinci-MagiHuman](https://github.com/BrightXiaoHan/MagiHuman) 基础模型构建，代表了开源社区首次从零开始的真实音视频联合预训练。
 
 > *来源：[36Kr](https://eu.36kr.com/en/p/3757826958635781) · [WaveSpeed AI](https://wavespeed.ai/blog/posts/what-is-happyhorse-1-0-ai-video-model/) · [Apiyi 分析](https://help.apiyi.com/en/happyhorse-model-mystery-ai-video-lmarena-analysis-en.html)*
 

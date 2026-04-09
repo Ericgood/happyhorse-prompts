@@ -18,16 +18,17 @@
 
 ## 🐴 What is HappyHorse?
 
-**HappyHorse-1.0** is a 15B-parameter unified Transformer that jointly generates video and audio from text — no post-production dubbing required. It emerged in early April 2026 as an anonymous entry on the [Artificial Analysis](https://artificialanalysis.ai/) Video Arena leaderboard, quickly claiming the **#1 spot** and surpassing established models like Seedance 2.0, Kling 3.0, and PixVerse V6.
+**HappyHorse-1.0** is a ~15B-parameter open-source AI video generator that jointly produces video and synchronized audio from text or image prompts. Developed by the **Future Life Lab of Taotian Group (Alibaba)**, led by Zhang Di. It emerged in early April 2026 and quickly claimed **#1** on the [Artificial Analysis](https://artificialanalysis.ai/) Video Arena, surpassing Seedance 2.0, Kling 3.0, and PixVerse V6.
 
 ### Key Highlights
 
 - 🏆 **#1 on AI Video Arena** — Elo 1333 (Text-to-Video), Elo 1392 (Image-to-Video)
-- 🧠 **15B Parameters** — 40-layer single-stream Transformer, no cross-attention
-- 🎬 **Joint Video + Audio** — Dialogue, ambient sound, and Foley generated alongside video frames
-- 🗣️ **Multilingual Lip-Sync** — Chinese, English, Japanese, Korean, German, French, Cantonese
-- ⚡ **8 Denoising Steps** — Fast inference via DMD-2 distillation, no CFG required
-- 📖 **Open Source** — Base model, distilled model, super-resolution module, and inference code (with commercial-use rights)
+- ⚡ **~10s Average Generation** — Fastest in class, 8 denoising steps via DMD-2
+- 🎨 **50+ Visual Styles** — Cinematic, anime, documentary, commercial, sci-fi, and more
+- 🎬 **Up to 15 Seconds** — Native 480p / 720p / 1080p output (no upscaling)
+- 🗣️ **Joint Audio + Lip-Sync** — Dialogue, ambient sound, Foley in 7 languages
+- 📖 **Open Source** — Base model, distilled model, super-res module, inference code (commercial-use rights)
+- ✅ **99.5% Success Rate** — Production-grade reliability
 
 ### Architecture
 
@@ -58,9 +59,9 @@ The model uses a **single-stream self-attention Transformer** where text tokens,
 | Kling 3.0 1080p Pro | 1241 | $13.44/min |
 | PixVerse V6 | 1239 | $5.40/min |
 
-### The Mystery
+### The Origin Story
 
-Nobody has publicly confirmed who built HappyHorse-1.0. Artificial Analysis described it as a **"pseudonymous" model**. Community investigation suggests it may be an iterative optimization based on the open-source [daVinci-MagiHuman](https://github.com/BrightXiaoHan/MagiHuman) model, potentially linked to Sand.ai and Shanghai's GAIR lab. The naming coincides with 2026 being the **Year of the Horse** in the Chinese zodiac.
+HappyHorse-1.0 was developed by the **Future Life Lab of Taotian Group (Alibaba)**, led by **Zhang Di** — a veteran of China's top AI video labs. The model appeared anonymously on the Artificial Analysis Video Arena in early April 2026, rapidly climbing to #1. Built upon the open-source [daVinci-MagiHuman](https://github.com/BrightXiaoHan/MagiHuman) foundation, it represents the first real audio-video joint pre-training from scratch in the open-source community.
 
 > *Sources: [36Kr](https://eu.36kr.com/en/p/3757826958635781) · [WaveSpeed AI](https://wavespeed.ai/blog/posts/what-is-happyhorse-1-0-ai-video-model/) · [Apiyi Analysis](https://help.apiyi.com/en/happyhorse-model-mystery-ai-video-lmarena-analysis-en.html)*
 
