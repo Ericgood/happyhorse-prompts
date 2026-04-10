@@ -18,7 +18,7 @@
 
 ## 🐴 HappyHorse 是什么？
 
-**HappyHorse-1.0** 是一个约 150 亿参数的开源 AI 视频生成模型，可从文本或图片同时生成视频和同步音频。由**淘天集团（阿里巴巴）未来生活实验室**开发，张迪带队。2026 年 4 月初登上 [Artificial Analysis](https://artificialanalysis.ai/) 视频竞技场，迅速夺得**第一名**，超越 Seedance 2.0、Kling 3.0、PixVerse V6。
+**HappyHorse-1.0** 是一个约 150 亿参数的开源 AI 视频生成模型，可从文本或图片同时生成视频和同步音频。由**阿里巴巴 ATH（创新事业群）**开发，阿里副总裁**郑波**带队（清华计算机博士、前谷歌总监）。2026 年 4 月 9 日登上 [Artificial Analysis](https://artificialanalysis.ai/) 视频竞技场，迅速夺得**全榜第一**。**API 计划于 4 月 30 日开放。**
 
 ### 核心亮点
 
@@ -61,9 +61,9 @@
 
 ### 身世揭秘
 
-HappyHorse-1.0 由**淘天集团（阿里巴巴）未来生活实验室**开发，由中国顶尖 AI 视频实验室资深专家**张迪**带队。该模型于 2026 年 4 月初以匿名身份登上 Artificial Analysis 视频竞技场，迅速登顶第一。基于开源 [daVinci-MagiHuman](https://github.com/BrightXiaoHan/MagiHuman) 基础模型构建，代表了开源社区首次从零开始的真实音视频联合预训练。
+HappyHorse-1.0 由**阿里巴巴 ATH（创新事业群）**开发，阿里副总裁**郑波**带队——清华计算机博士、前谷歌总监（2006-2017）。模型于 2026 年 4 月 9 日登上 Artificial Analysis 视频竞技场，迅速拿下全榜第一。支持 4 种模式：文生视频、图生视频，以及两者的原生音频版。API 计划于 **4 月 30 日**开放。基于开源 [daVinci-MagiHuman](https://github.com/BrightXiaoHan/MagiHuman) 基础模型构建。
 
-> *来源：[36Kr](https://eu.36kr.com/en/p/3757826958635781) · [WaveSpeed AI](https://wavespeed.ai/blog/posts/what-is-happyhorse-1-0-ai-video-model/) · [Apiyi 分析](https://help.apiyi.com/en/happyhorse-model-mystery-ai-video-lmarena-analysis-en.html)*
+> *来源：[爱范儿](https://www.ifanr.com/1661708) · [36Kr](https://eu.36kr.com/en/p/3757826958635781) · [WaveSpeed AI](https://wavespeed.ai/blog/posts/what-is-happyhorse-1-0-ai-video-model/) · [Apiyi 分析](https://help.apiyi.com/en/happyhorse-model-mystery-ai-video-lmarena-analysis-en.html)*
 
 ---
 

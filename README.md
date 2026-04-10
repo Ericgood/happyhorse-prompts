@@ -18,7 +18,7 @@
 
 ## 🐴 What is HappyHorse?
 
-**HappyHorse-1.0** is a ~15B-parameter open-source AI video generator that jointly produces video and synchronized audio from text or image prompts. Developed by the **Future Life Lab of Taotian Group (Alibaba)**, led by Zhang Di. It emerged in early April 2026 and quickly claimed **#1** on the [Artificial Analysis](https://artificialanalysis.ai/) Video Arena, surpassing Seedance 2.0, Kling 3.0, and PixVerse V6.
+**HappyHorse-1.0** is a ~15B-parameter open-source AI video generator that jointly produces video and synchronized audio from text or image prompts. Developed by **Alibaba ATH (Token Hub Innovation Division)**, led by **Zheng Bo** (Alibaba VP, Tsinghua CS PhD, ex-Google Director). It appeared on [Artificial Analysis](https://artificialanalysis.ai/) Video Arena on April 9, 2026 and quickly claimed **#1** across all leaderboards. **API access planned for April 30, 2026.**
 
 ### Key Highlights
 
@@ -61,9 +61,9 @@ The model uses a **single-stream self-attention Transformer** where text tokens,
 
 ### The Origin Story
 
-HappyHorse-1.0 was developed by the **Future Life Lab of Taotian Group (Alibaba)**, led by **Zhang Di** — a veteran of China's top AI video labs. The model appeared anonymously on the Artificial Analysis Video Arena in early April 2026, rapidly climbing to #1. Built upon the open-source [daVinci-MagiHuman](https://github.com/BrightXiaoHan/MagiHuman) foundation, it represents the first real audio-video joint pre-training from scratch in the open-source community.
+HappyHorse-1.0 was developed by **Alibaba ATH (Token Hub Innovation Division)**, led by **Zheng Bo** — Alibaba VP, Tsinghua CS PhD, former Google Director (2006-2017). The model appeared on Artificial Analysis Video Arena on April 9, 2026, rapidly claiming #1 across all leaderboards. It supports 4 modes: text-to-video, image-to-video, and both with native audio generation. API access is planned for **April 30, 2026**. Built upon the open-source [daVinci-MagiHuman](https://github.com/BrightXiaoHan/MagiHuman) foundation.
 
-> *Sources: [36Kr](https://eu.36kr.com/en/p/3757826958635781) · [WaveSpeed AI](https://wavespeed.ai/blog/posts/what-is-happyhorse-1-0-ai-video-model/) · [Apiyi Analysis](https://help.apiyi.com/en/happyhorse-model-mystery-ai-video-lmarena-analysis-en.html)*
+> *Sources: [ifanr 爱范儿](https://www.ifanr.com/1661708) · [36Kr](https://eu.36kr.com/en/p/3757826958635781) · [WaveSpeed AI](https://wavespeed.ai/blog/posts/what-is-happyhorse-1-0-ai-video-model/) · [Apiyi Analysis](https://help.apiyi.com/en/happyhorse-model-mystery-ai-video-lmarena-analysis-en.html)*
 
 ---
 
